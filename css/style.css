@@ -1,3 +1,9 @@
 @import "header.css";
 @import "footer.css";
 @import "main.css";
+@import "popup.css";
+
+:root {
+  --keypadcolor: #787c7e;
+  --keypadpressedcolor: #484b4c;
+}
