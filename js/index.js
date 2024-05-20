@@ -40,13 +40,7 @@ function appStart() {
     displayGameover(); //게임오버 메세지 출력, css 보완 필요
     window.removeEventListener("keydown", handleKeyDown); //키 입력 이벤트 리스너 삭제
     clearInterval(interval); //타이머 인터벌 삭제, setInterval 반대기능
-    printPopup();
     return;
-  };
-
-  const printPopup = () => {
-    const popupstyle = document.querySelector(".popup_dimmed");
-    popupstyle.style.position = "absolute";
   };
 
   const handleEnterkey = (thisKeypad) => {
